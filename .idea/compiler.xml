@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-feature" />
+        <module name="session-feature" />
+        <module name="schedule-feature" />
+        <module name="utility" />
+        <module name="email-communication-feature" />
+        <module name="monitoring-feature" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="communication-feature" target="23" />
+      <module name="email-feature" target="23" />
+      <module name="feature" target="23" />
+      <module name="record-feature" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

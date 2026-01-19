@@ -2,11 +2,11 @@ package org.cs.dto.response;
 
 public class UserActiveSessionDTO {
 
-    public String emailAddress;
+    private String emailAddress;
 
-    public String sessionCode;
+    private String sessionCode;
 
-    public boolean isSessionActive;
+    private boolean isSessionActive;
 
     public String getEmailAddress() {
         return emailAddress;

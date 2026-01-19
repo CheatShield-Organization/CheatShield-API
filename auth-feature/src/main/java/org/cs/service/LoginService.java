@@ -16,13 +16,13 @@ public class LoginService implements ILoginService {
     }
 
     @Override
-    public UserActiveSessionDTO isUserLoggedIn(String emailAddress) {
-        return loginRepository.isUserLoggedIn(emailAddress);
+    public UserActiveSessionDTO sessionStatus(String emailAddress) {
+        return loginRepository.sessionStatus(emailAddress);
     }
 
     @Override
-    public void login(String emailAddress, String password) {
-        loginRepository.login(emailAddress, password);
+    public UserCredentialDTO login(String emailAddress, String password) {
+        return loginRepository.login(emailAddress,password);
     }
 
 }

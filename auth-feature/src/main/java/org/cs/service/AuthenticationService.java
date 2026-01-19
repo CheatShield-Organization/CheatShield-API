@@ -1,6 +1,7 @@
 package org.cs.service;
 
 import org.cs.dto.request.UserCredentialDTO;
+import org.cs.dto.response.UserActiveSessionDTO;
 import org.cs.dto.response.UserAuthenticationCodeDTO;
 import org.cs.service.abstraction.IAuthenticationService;
 import org.springframework.stereotype.Service;
@@ -18,4 +19,5 @@ public class AuthenticationService implements IAuthenticationService {
     public boolean checkAuthenticationCodeEmail(UserAuthenticationCodeDTO authCode) {
         return true;
     }
+
 }

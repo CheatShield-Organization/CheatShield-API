@@ -5,8 +5,8 @@ import org.cs.dto.response.UserActiveSessionDTO;
 
 public interface ILoginService {
 
-    public UserActiveSessionDTO isUserLoggedIn(String emailAddress);
+    public UserActiveSessionDTO sessionStatus(String emailAddress);
 
-    public void login(String emailAddress, String password);
+    public UserCredentialDTO login(String emailAddress, String password);
 
 }

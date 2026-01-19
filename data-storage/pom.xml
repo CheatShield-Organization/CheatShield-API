@@ -9,40 +9,20 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cheat-shield-app</artifactId>
+    <artifactId>data-storage</artifactId>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
-        <!--Project modules-->
-
-        <dependency>
-            <groupId>org.cs</groupId>
-            <artifactId>auth-feature</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <!--Spring-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
         <!--JPA-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+
 
         <!--MySQL Drivers-->
         <dependency>
@@ -58,23 +38,12 @@
             <version>1.18.42</version>
             <scope>compile</scope>
         </dependency>
-
-        <!--Swagger-->
         <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>2.8.5</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

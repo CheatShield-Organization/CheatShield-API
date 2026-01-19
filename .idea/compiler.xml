@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -13,9 +14,11 @@
         <module name="monitoring-feature" />
         <module name="schedule-feature" />
         <module name="utility" />
+        <module name="data-storage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cheatshield-dao" target="21" />
       <module name="communication-feature" target="23" />
       <module name="email-feature" target="23" />
       <module name="feature" target="23" />
@@ -28,6 +31,8 @@
       <module name="auth-feature" options="-parameters" />
       <module name="cheat-shield" options="" />
       <module name="cheat-shield-app" options="-parameters" />
+      <module name="cheatshield-dao" options="-parameters" />
+      <module name="data-storage" options="-parameters" />
       <module name="email-communication-feature" options="-parameters" />
       <module name="monitoring-feature" options="-parameters" />
       <module name="schedule-feature" options="-parameters" />

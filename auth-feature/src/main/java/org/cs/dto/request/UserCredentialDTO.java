@@ -2,9 +2,9 @@ package org.cs.dto.request;
 
 public class UserCredentialDTO {
 
-    public String emailAddress;
+    private String emailAddress;
 
-    public String password;
+    private String password;
 
     public String getEmailAddress() {
         return emailAddress;

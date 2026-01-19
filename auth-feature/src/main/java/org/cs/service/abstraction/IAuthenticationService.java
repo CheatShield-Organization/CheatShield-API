@@ -1,6 +1,7 @@
 package org.cs.service.abstraction;
 
 import org.cs.dto.request.UserCredentialDTO;
+import org.cs.dto.response.UserActiveSessionDTO;
 import org.cs.dto.response.UserAuthenticationCodeDTO;
 
 public interface IAuthenticationService {
@@ -10,5 +11,4 @@ public interface IAuthenticationService {
 
     /// Checking the authentication code with the sent one.
     public boolean checkAuthenticationCodeEmail(UserAuthenticationCodeDTO authCode);
-
 }

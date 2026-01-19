@@ -2,9 +2,9 @@ package org.cs.dto.response;
 
 public class UserAuthenticationCodeDTO {
 
-    public String emailAddress;
+    private String emailAddress;
 
-    public int authCode;
+    private int authCode;
 
     public String getEmailAddress() {
         return emailAddress;

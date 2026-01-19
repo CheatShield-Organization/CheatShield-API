@@ -29,6 +29,7 @@
 		<module>utility</module>
 		<module>schedule-feature</module>
 		<module>session-feature</module>
+		<module>data-storage</module>
 
 	</modules>
 	<scm>

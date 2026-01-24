@@ -1,6 +1,9 @@
-package org.cs.email_comunication.dto.response;
+package org.cs.email_comunication.utility;
 
-public class SendEmailDTO {
+import java.io.File;
+import java.util.ArrayList;
+
+public class Email {
 
     private String title;
 

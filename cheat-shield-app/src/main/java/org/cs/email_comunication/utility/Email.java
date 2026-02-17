@@ -3,7 +3,6 @@ package org.cs.email_comunication.utility;
 import lombok.Getter;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 @Getter
@@ -41,11 +40,7 @@ public class Email {
 
         private String receiverEmailAddress;
 
-        private String senderEmailAddress;
-
-
         public EmailBuilder(String receiverEmailAddress){
-            this.senderEmailAddress = senderEmailAddress;
             this.receiverEmailAddress = receiverEmailAddress;
         }
 
